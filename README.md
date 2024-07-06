@@ -1,11 +1,9 @@
-# typescript-sandbox
+# laboratorio Datos y Operadores
 
-Para la parte de cada módulo en la que te planteamos ejercicios con JavaScript puedes usar este sandbox.
+Buenas, he introducido en el mensaje varias variables para complicarlo
+un poco.
 
-Pasos:
+Lo que no consigo es darle estilo en la salida de la consola con el
+uso de %c, algo así como:
 
-- Clonate el proyecto.
-- Instala las dependencias con `npm install`.
-- Ejecuta el sandbox con `npm run dev`.
-- Abre el navegador en `http://localhost:5173/` (si ese puerto no te funciona, mira en la consola donde has hecho el build, puede que este ocupado y se haya abierto en otro puerto).
-- Puedes empezar a meter tu código en el fichero:
+console.log(`%c{mensaje}`, color: red);
